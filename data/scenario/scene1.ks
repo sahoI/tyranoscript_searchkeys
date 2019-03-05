@@ -7,7 +7,7 @@
 [start_keyconfig]
 
 
-[bg storage="room.jpg" time="100"]
+[bg storage="building5_close.jpg" time="100"]
 
 ;メニューボタンの表示
 @showmenubutton
@@ -237,7 +237,7 @@ AppStoreやGooglePlayに向けてアプリ化して販売することもでき�
 @hidemenubutton
 
 ;ロールボタン追加;;;;;;;;;;;;;;
-	
+
 [button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png" x=35 y=610]
 
 ;	オート
