@@ -25,6 +25,7 @@
 #あに
 鍵とドアノブを頼む[l][cm]
 #
+[chara_hide name="brother"]
 
 @jump target=*common
 
@@ -37,6 +38,8 @@
 
 [l]
 おめっとさん[l][cm]
+[chara_hide name="brother"]
+
 @jump target=*common
 
 
@@ -47,7 +50,11 @@
 [cm]
 [message_area]
 
+[charactor new_name="hummer" storage="hummer.png" show_name="hummer" jname="ハンマー"]
+
+#
 ハンマーをゲットした!![l][cm]
+[chara_hide name="hummer"]
 
 @jump target=*common
 
@@ -58,6 +65,6 @@
 
 [s]
 
-*select4
+*five4
 [cm]
-@jump target="map.ks"
+@jump storage="map.ks"
