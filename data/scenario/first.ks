@@ -24,12 +24,6 @@
 
 *start
 ;building5のボタン
-[macro name="five_choice"]
-[glink graphic="button/btn03_03_light.png" target=*select1 text="兄に話しかける" size=20 width=500 x="220" y="20"]
-[glink graphic="button/btn03_03_light.png" target=*select2 text="扉を壊す" size=20 width=500 x="220" y="80"]
-[glink graphic="button/btn03_03_light.png" target=*select3 text="周辺を探す" size=20 width=500 x="220" y="140"]
-[glink graphic="button/btn03_03_light.png" target=*select4 text="mapに戻る" size=20 width=500 x="220" y="200"]
-[endmacro]
 
 ;メッセージウィンドウの表示
 [macro name="message_area"]
@@ -37,15 +31,11 @@
 [position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
 [endmacro]
 
-;キャラクターの初期化
-[macro name="brother"]
-[ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
-[chara_config ptext="chara_name_area"]
-[chara_new name="old_brother" storage="set/brother.png" jname="あに"]
-[chara_show name="old_brother"]
-[endmacro]
+;キャラクターの表示の設定
+@call storage="charactor.ks"
 
-
+;選択肢の設定
+@call storage="choice.ks"
 
 @jump storage="building5.ks"
 ;背景画像の切り替え実行
