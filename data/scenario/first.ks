@@ -24,12 +24,28 @@
 
 *start
 
-@layopt layer="message" visible=false
+[macro name="five_choice"]
+[glink graphic="button/btn03_03_light.png" target=*select1 text="兄に話しかける" size=20 width=500 x="220" y="20"]
+[glink graphic="button/btn03_03_light.png" target=*select2 text="扉を壊す" size=20 width=500 x="220" y="80"]
+[glink graphic="button/btn03_03_light.png" target=*select3 text="周辺を探す" size=20 width=500 x="220" y="140"]
+[glink graphic="button/btn03_03_light.png" target=*select4 text="mapに戻る" size=20 width=500 x="220" y="200"]
+[endmacro]
 
-[hidemenubutton]
+[macro name="message_area"]
+[position layer=message0 width=800 height=300 top=380 left=70 ]
+[position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
+[endmacro]
 
-@jump storage="title.ks"
+[macro name="brother"]
+[ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
+[chara_config ptext="chara_name_area"]
+[chara_new name="old_brother" storage="set/brother.png" jname="あに"]
+[chara_show name="old_brother"]
+[endmacro]
 
+
+
+@jump storage="top.ks"
 ;背景画像の切り替え実行
 ;[bg storage="building5_close.jpg" time=3000]
 ;背景が切り替わりましたね？
