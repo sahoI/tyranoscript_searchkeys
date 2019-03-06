@@ -10,10 +10,11 @@
 展示会場である5号館に到着した。[r]
 しかし、ドアを見た兄の様子がおかしい。[l][cm]
 
-
 [ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
 [chara_config ptext="chara_name_area"]
-[chara_new  name="old_brather" storage="chara/akane/normal.png" jname="あかね"  ]
+[chara_new  name="old_brother" storage="chara/akane/normal.png" jname="あかね"  ]
+[chara_new name="old_brother" storage="syokudo.png" jname="あに"]
+[chara_show name="old_brother"]
 #あに
 これから準備しないといけないのに、鍵が開いていなくて…..[r]おまけになぜかドアノブが外れてなくなっているんだ…..[l][r][cm]
 #自分
