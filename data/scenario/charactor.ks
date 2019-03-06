@@ -1,0 +1,103 @@
+;メッセージのテンプレート部分のマクロ
+[macro name="template"]
+[ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
+[chara_config ptext="chara_name_area"]
+[endmacro]
+
+;各人物の画像の表示するマクロ
+
+[macro name="brother"]
+[template]
+[chara_new name="brother" storage="set/brother.png" jname="あに"]
+[chara_show name="brother"]
+[endmacro]
+
+[macro name="alex"]
+[template]
+[chara_new name="alex" storage="set/alex.png" jname="A君"]
+[chara_show name="alex"]
+[endmacro]
+
+[macro name="hg"]
+[template]
+[chara_new name="hg" storage="set/hg.png" jname="Sさん"]
+[chara_show name="hg"]
+[endmacro]
+
+[macro name="hiraoka1"]
+[template]
+[chara_new name="hiraoka1" storage="set/hiraoka1.png" jname="H先輩"]
+[chara_show name="hiraoka1"]
+[endmacro]
+
+[macro name="hiraoka2"]
+[template]
+[chara_new name="hiraoka2" storage="set/hiraoka3.png" jname="H先輩"]
+[chara_show name="hiraoka2"]
+[endmacro]
+
+[macro name="hiraoka3"]
+[template]
+[chara_new name="hiraoka3" storage="set/hiraoka3.png" jname="H先輩"]
+[chara_show name="hiraoka3"]
+[endmacro]
+
+[macro name="joudai"]
+[template]
+[chara_new name="joudai" storage="set/joudai.png" jname="J君"]
+[chara_show name="joudai"]
+[endmacro]
+
+[macro name="mimu"]
+[template]
+[chara_new name="mimu" storage="set/mimu.png" jname="M先輩"]
+[chara_show name="mimu"]
+[endmacro]
+
+[macro name="miyajima"]
+[template]
+[chara_new name="miyajima" storage="set/miyajima.png" jname="M君"]
+[chara_show name="miyajima"]
+[endmacro]
+
+[macro name="norip"]
+[template]
+[chara_new name="norip" storage="set/norip.png" jname="Nさん"]
+[chara_show name="norip"]
+[endmacro]
+
+[macro name="ootuki"]
+[template]
+[chara_new name="ootuki" storage="set/ootuki.png" jname="O先輩"]
+[chara_show name="ootuki"]
+[endmacro]
+
+[macro name="satoshiandkensyo"]
+[template]
+[chara_new name="satoshiandkensyo" storage="set/satoshiandkensyo.png" jname="S君&K君"]
+[chara_show name="satoshiandkensyo"]
+[endmacro]
+
+[macro name="sugihiro"]
+[template]
+[chara_new name="sugihiro" storage="set/sugihiro.png" jname="S君"]
+[chara_show name="sugihiro"]
+[endmacro]
+
+[macro name="syokudo"]
+[template]
+[chara_new name="syokudo" storage="set/syokudo.png" jname="食堂"]
+[chara_show name="syokudo"]
+[endmacro]
+
+[macro name="tissue"]
+[template]
+[chara_new name="tissue" storage="set/tissue.png" jname="T先輩"]
+[chara_show name="tissue"]
+[endmacro]
+
+[macro name="tomi"]
+[template]
+[chara_new name="tomi" storage="set/tomi.png" jname="T先輩"]
+[chara_show name="tomi"]
+[endmacro]
