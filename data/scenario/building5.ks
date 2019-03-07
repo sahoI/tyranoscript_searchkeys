@@ -37,6 +37,7 @@
 [charactor new_name="brother" storage="set/brother.png" show_name="brother" jname="あに"]
 
 [l]
+#あに
 おめっとさん[l][cm]
 [chara_hide name="brother"]
 

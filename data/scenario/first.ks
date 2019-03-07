@@ -29,15 +29,12 @@
 [position layer=message0 page=fore width=800 height=300 top=380 left=70 visible=true]
 [position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
 [endmacro]
-
-;キャラクターの表示の設定
+;選択肢
+@call storage="choice.ks"
+;キャラクター
 @call storage="charactor.ks"
 
-;選択肢の設定
-@call storage="choice.ks"
-
-@jump storage="building5.ks"
-
+@jump storage="fourteen_building.ks"
 ;背景画像の切り替え実行
 ;[bg storage="building5_close.jpg" time=3000]
 ;背景が切り替わりましたね？
