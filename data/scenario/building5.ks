@@ -2,21 +2,22 @@
 [bg storage="building5_close.jpg" time=3000]
 [cm]
 
+;[current layer=message1]
+;[position layer=message1 opacity=0]
+;[layopt layer=message1 visible=true]
 
-[link target=*select1]兄に話しかける[endlink][r]
-[link target=*select2]扉を壊す[endlink][r]
-[link target=*select3]周辺を探す[endlink][r]
+
+[five_choice]
 [s]
 
-*select1
+*five1
 [cm]
-[position layer=message0 width=800 height=300 top=380 left=70 ]
-[position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
-[ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
-[chara_config ptext="chara_name_area"]
-[chara_new  name="old_brother" storage="chara/akane/normal.png" jname="あかね"  ]
-[chara_new name="old_brother" storage="set/brother.png" jname="あに"]
-[chara_show name="old_brother"]
+
+;first.ksで定義したマクロ
+[message_area]
+
+[charactor new_name="brother" storage="set/brother.png" show_name="brother" jname="あに"]
+
 #あに
 おう、どうした？[l][cm]
 #自分
@@ -24,42 +25,47 @@
 #あに
 鍵とドアノブを頼む[l][cm]
 #
+[chara_hide name="brother"]
 
 @jump target=*common
 
 
 
-*select2
+*five2
 [cm]
-[position layer=message0 width=800 height=300 top=380 left=70 ]
-[position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
+[message_area]
+[charactor new_name="brother" storage="set/brother.png" show_name="brother" jname="あに"]
 
-
-[ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
-[chara_config ptext="chara_name_area"]
-[chara_new  name="old_brother" storage="chara/akane/normal.png" jname="あかね"  ]
-[chara_new name="old_brother" storage="set/brother.png" jname="あに"]
-[chara_show name="old_brother"]
+[l]
 #あに
 おめっとさん[l][cm]
+[chara_hide name="brother"]
+
 @jump target=*common
 
 
 
-*select3
-[cm]
-[position layer=message0 width=800 height=300 top=380 left=70 ]
-[position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
 
+
+*five3
+[cm]
+[message_area]
+
+[charactor new_name="hummer" storage="hummer.png" show_name="hummer" jname="ハンマー"]
+
+#
 ハンマーをゲットした!![l][cm]
+[chara_hide name="hummer"]
 
 @jump target=*common
 
 *common
 [cm]
 
-[link target=*select1]兄に話しかける[endlink][r]
-[link target=*select2]扉を壊す[endlink][r]
-[link target=*select3]周辺を探す[endlink][r]
+[five_choice select1="five1" five1_text="兄に話しかける" select2="five2" five2_text="扉を壊す"]
 
 [s]
+
+*five4
+[cm]
+@jump storage="map.ks"
