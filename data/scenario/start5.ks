@@ -10,7 +10,7 @@
 展示会場である5号館に到着した。[r]
 しかし、ドアを見た兄の様子がおかしい。[l][cm]
 
-[brother]
+[charactor new_name="brother" storage="set/brother.png" show_name="brother" jname="あに"]
 
 #あに
 これから準備しないといけないのに、鍵が開いていなくて…..[r]おまけになぜかドアノブが外れてなくなっているんだ…..[l][r][cm]
@@ -24,3 +24,5 @@
 よくわからないんだけど、Wi-Fiもモバイル通信も繋がらなくて、連絡手段がないんだ……[l][cm]
 #
 そんなわけで鍵とドアノブを手に入れに行くことになった。[l][cm]
+[chara_hide name="brother"]
+@jump storage="map.ks"

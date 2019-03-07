@@ -27,10 +27,11 @@
 ;問題　選択肢
 ことわざ「猿も木から落ちる」の意味を答えよ[l]
 [go_choice]
+[s]
 #
 
 *one3
-;@jump storage="map.ks"
+@jump storage="map.ks"
 
 ;正解
 *one4
@@ -55,3 +56,4 @@
 *common
 @layopt layer="message" visible=false
 [one_choice]
+[s]

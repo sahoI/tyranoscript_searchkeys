@@ -58,7 +58,7 @@
 
 *six2
 @layopt layer="message" visible="false"
-@jump storage="title.ks"
+@jump storage="map.ks"
 
 *common
 @layopt layer="message" visible="false"

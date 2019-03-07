@@ -26,6 +26,7 @@
 
 ;メッセージウィンドウの表示
 [macro name="message_area"]
+@layopt layer="message" visible="true"
 [position layer=message0 page=fore width=800 height=300 top=380 left=70 visible=true]
 [position layer=message0 page=fore frame="frame.png" margint="65" marginl="50" marginr="70" marginb="60" ]
 [endmacro]
@@ -34,7 +35,7 @@
 ;キャラクター
 @call storage="charactor.ks"
 
-@jump storage="fourteen_building.ks"
+@jump storage="title.ks"
 ;背景画像の切り替え実行
 ;[bg storage="building5_close.jpg" time=3000]
 ;背景が切り替わりましたね？

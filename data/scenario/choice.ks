@@ -1,6 +1,13 @@
 
 ;選択肢のマクロ
 
+[macro name="map"]
+[glink graphic="button/btn03_02_light.png" target=*building1 text="1号館" size=20 width=20 x=180 y=50]
+[glink graphic="button/btn03_02_light.png" target=*building_big text="大教室" size=20 width=20 x=520 y=300]
+[glink graphic="button/btn03_02_light.png" target=*koyama text="神山ホール" size=20 width=20 x=170 y=250]
+[glink graphic="button/btn03_02_light.png" target=*banyukan text="万有館" size=20 width=20 x=300 y=50]
+[endmacro]
+
 ;1,6,11,14,15号館,食堂,模擬店,図書館は選択肢は2つ
 
 ;あとで変更
@@ -11,7 +18,7 @@
 [endmacro]
 
 [macro name="go_choice"]
-[glink graphic="button/btn03_03_dark.png" target=*one4 text="その道に優れてた人であっても時には失敗することがある" size=20 width=500 x=220 y=20]
+[glink graphic="button/btn03_03_dark.png" target=*one4 text="その道に優れてた人であっても時に失敗することがある" size=20 width=500 x=220 y=20]
 [glink graphic="button/btn03_03_dark.png" target=*one5 text="お猿さんは木から落ちても死なない" size=20 width=500 x=220 y=100]
 [glink graphic="button/btn03_03_dark.png" target=*one6 text="猿が木から落ちたところを発見した" size=20 width=500 x=220 y=180]
 [endmacro]
@@ -67,10 +74,15 @@
 [endmacro]
 
 [macro name="banyukan_choice"]
-[glink graphic="button/btn03_03_light.png" target=*banyukan1 text="話しかける" size=20 width=500 x="220" y=20]
-[glink graphic="button/btn03_03_light.png" target=*banyukan2 text="mapに戻る" size=20 width=500 x="220" y=100]
-[glink graphic="button/btn03_03_light.png" target=*banyukan1 text="話しかける" size=20 width=500 x=220 y=180]
-[glink graphic="button/btn03_03_light.png" target=*banyukan2 text="mapに戻る" size=20 width=500 x=220 y=260]
+[glink graphic="button/btn03_03_light.png" target=*banyukan1 text="左の人に話しかける" size=20 width=500 x=220 y=20]
+[glink graphic="button/btn03_03_light.png" target=*banyukan2 text="右の人に話しかける" size=20 width=500 x=220 y=100]
+[glink graphic="button/btn03_03_light.png" target=*banyukan3 text="mapに戻る" size=20 width=500 x=220 y=180]
+[endmacro]
+
+[macro name="to_choice"]
+[glink graphic="button/btn03_03_dark.png" target=*banyukan4 text="財務" size=20 width=500 x=220 y=20]
+[glink graphic="button/btn03_03_dark.png" target=*banyukan5 text="教務" size=20 width=500 x=220 y=100]
+[glink graphic="button/btn03_03_dark.png" target=*banyukan6 text="幽霊部員隊長" size=20 width=500 x=220 y=180]
 [endmacro]
 
 ;あとで変更
