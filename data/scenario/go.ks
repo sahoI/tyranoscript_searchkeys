@@ -1,6 +1,6 @@
 
 
-[bg storage="banyukan.jpg" time=3000]
+[bg storage="building1.jpg" time=3000]
 
 
 
