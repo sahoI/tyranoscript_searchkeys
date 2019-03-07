@@ -1,12 +1,6 @@
 
 
-<<<<<<< HEAD
 @layopt layer="message" visible="false"
-=======
-
-@layopt layer="message" visible="false"
-
->>>>>>> mogiten_saho
 [bg storage="building6.jpg" time=3000]
 
 [six_choice]
