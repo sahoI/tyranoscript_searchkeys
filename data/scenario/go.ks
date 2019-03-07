@@ -2,6 +2,7 @@
 
 [bg storage="building1.jpg" time=3000]
 [one_choice]
+[s]
 
 *one1
 [cm]
