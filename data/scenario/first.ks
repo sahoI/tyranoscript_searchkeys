@@ -35,7 +35,7 @@
 ;キャラクター
 @call storage="charactor.ks"
 
-@jump storage="koyama2.ks"
+@jump storage="title.ks"
 ;背景画像の切り替え実行
 ;[bg storage="building5_close.jpg" time=3000]
 ;背景が切り替わりましたね？
