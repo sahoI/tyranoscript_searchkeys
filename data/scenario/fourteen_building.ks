@@ -1,16 +1,13 @@
 
 
-
-;@layopt layer="message" visible="false"
-
+@layopt layer="message" visible="false"
 [bg storage="building6.jpg" time=3000]
 
 [six_choice]
-[message_area]
 [s]
 
 *six1
-
+[message_area]
 [charactor new_name="satoshiandkensyo" storage="set/satoshiandkensyo.png" show_name="satoshiandkensyo" jname="S君&K君"]
 
 ;さとしくん、けんしょーくん
@@ -45,6 +42,7 @@
 
 [chara_hide name="satoshiandkensyo"]
 
+@layopt layer="message" visible="false"
 @jump target=*common
 
 *six3
@@ -55,6 +53,7 @@
 残念。不正解なので自力で頑張って。[l][cm]
 #
 [chara_hide name="satoshiandkensyo"]
+;@layopt layer="message" visible="false"
 
 @jump target=*common
 
@@ -63,6 +62,6 @@
 @jump storage="title.ks"
 
 *common
+@layopt layer="message" visible="false"
 [six_choice]
-[message_area]
 [s]
