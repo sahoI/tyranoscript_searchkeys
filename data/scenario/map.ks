@@ -12,7 +12,7 @@
 @jump storage="fourteen_building.ks"
 
 *koyama
-;@jump storage=""
+@jump storage="koyama2.ks"
 
 *banyukan
 @jump storage="to.ks"
