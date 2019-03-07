@@ -1,16 +1,15 @@
 
 
 
-;@layopt layer="message" visible="false"
+@layopt layer="message" visible="false"
 
 [bg storage="building6.jpg" time=3000]
 
 [six_choice]
-[message_area]
 [s]
 
 *six1
-
+[message_area]
 [charactor new_name="satoshiandkensyo" storage="set/satoshiandkensyo.png" show_name="satoshiandkensyo" jname="S君&K君"]
 
 ;さとしくん、けんしょーくん
@@ -27,10 +26,8 @@
 #
 ;問題　選択肢
 
-ゲームエンジン「unity」を使いこなす某H先輩の誕生日は？[l][cm]
-[link target=*six3]1月21日[endlink][r]
-[link target=*six4]8月26日[endlink][r]
-[link target=*six5]7月31日[endlink][r]
+ゲームエンジン「unity」を使いこなす某H先輩の誕生日は？[l]
+[fourteenhint_choice]
 [s]
 *six4
 [cm]
@@ -49,6 +46,7 @@
 
 *six3
 *six5
+[message_area]
 [cm]
 ;不正解
 #さとし
