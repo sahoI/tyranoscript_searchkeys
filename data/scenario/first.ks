@@ -45,7 +45,8 @@
 [chara_show name="old_brother"]
 [endmacro]
 
-
+@call storage="choice.ks"
+@call storage="charactor.ks"
 
 @jump storage="go.ks"
 ;背景画像の切り替え実行
