@@ -19,7 +19,7 @@
 ;[charctor new_name="syokudo" storage="set/syokudo.png" show_name="syokudo" jname="食堂"]
 ;[charctor new_name="tissue" storage="set/tissue.png" show_name="tissue" jname="T先輩"]
 ;[charctor new_name="tomi" storage="set/tomi.png" show_name="tomi" jname="T先輩"]
-;[charctor new_name="brother" storage="set/brother.png" show_name="brother" jname="あに"]
+;[charactor new_name="brother" storage="set/brother.png" show_name="brother" jname="あに"]
 
 [macro name="charactor"]
 [ptext name="chara_name_area" layer="message0" color="white" size=24 x=120 y=410]
